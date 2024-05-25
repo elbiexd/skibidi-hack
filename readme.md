@@ -52,7 +52,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Esp Players",
 	Callback = function()
-		while wait(1) do
+	
  local camera = workspace.CurrentCamera
  local runService = game:GetService("RunService")
  local highlight = Instance.new("Highlight")
@@ -93,7 +93,7 @@ Tab:AddButton({
 			end
 	 end)
 	 end
-	end    
+
 })
 
 local Tab2 = Window:MakeTab({
